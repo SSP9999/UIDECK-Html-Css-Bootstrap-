@@ -1,0 +1,393 @@
+html
+{
+    font-size: 62.5%;
+}
+*
+{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+  
+}
+body
+{
+    background-color: #f4f6f7;
+}
+.section-hero
+{
+background-color: #0067f4;
+color: #fff;
+}
+.hero-title
+{
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+.hero-text-box div
+{
+padding-top: 5rem;
+}
+.hero-text-box div p
+{
+font-size: 2rem;
+padding-right: 5rem;
+margin-bottom: 5rem;
+}
+.hero-text-box ul
+{
+list-style: none;
+font-size: 1.5rem;
+display: inline-flex;
+position: absolute;
+}
+
+.hero-text-box ul li
+{
+margin-right: 2rem;
+}
+.button1,.button2
+{
+    text-decoration: none;
+    padding: 1rem 3.2rem;
+    border-radius: 3rem;
+    border: 1.5px solid #fff;
+}
+.button1
+{ 
+    background-color: #fff;
+    color: #0067f4;
+}
+.button1:hover
+{
+    background-color: #0067f4;
+    color: #fff;
+    transition: ease;
+    transition-duration: 1s;
+    position: relative;
+}
+.button2
+{
+   
+    background-color: #0067f4;
+    color: #fff;
+}
+.button2:hover
+{
+    background-color: #fff;
+    color: #0067f4;
+    transition: ease;
+    transition-duration: 1s;
+    position: relative;
+}
+
+
+
+.hero-title
+{
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+.hero-img-box img
+{
+    width: 100%;
+}
+.section-services
+{
+padding-top: 6rem;
+}
+.services-card
+{
+    padding: 10rem 0;
+}
+
+.headingParagraph
+{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sectionservicesCards
+{
+padding: 3rem 0;
+background-color:#f4f6f7;
+}
+.services-card
+{
+    background-color: #fff;
+}
+.teritaryHeading
+{
+text-align: center;
+font-size: 3rem;
+font-weight: 600;
+}
+
+.services-template div
+{
+    display: flex;
+    padding-right: 11rem;
+}
+.templateHeading
+{
+    font-size: 4.5rem;
+}
+.brushicon
+{
+font-size: 6rem;
+color: #0067f4;
+padding-top: 3rem;
+}
+.templateDescription
+{
+font-size: 1.5rem;
+margin-top: 2rem;
+line-height: 1.5;
+}
+.Teammates
+{
+    padding: 6rem 3rem;
+   
+}
+.teamImages
+{
+    margin-bottom: 4rem;
+    
+
+}
+
+.Images
+{
+    width: 100%;
+    
+
+}
+
+.teaminfo:hover
+{
+ 
+    color: #fff;
+    background: linear-gradient(#2bdbdc 0%,#0067f4 100%);
+}
+
+.teammatename
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.profession
+{
+   color: #0056b3;
+    font-size: 2rem;
+    padding-left: 12rem;
+}
+
+.teamheading
+{
+margin-bottom: 2rem;
+text-align: center;
+font-size: 3rem;
+}
+.teamdescription
+{
+font-size: 1.5rem;
+color: #6c6c6c;
+line-height: 1.5;
+text-align: center;
+}
+
+
+.aboutUs
+{
+padding-top: 3rem;
+}
+.Aboutusdiv
+{
+    padding-top: 4rem;
+}
+.moreAbout
+{
+font-size: 1.5rem;
+text-decoration: none;
+font-weight: 500;
+}
+.headingAbout
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.aboutImg
+{
+    width: 100%;
+}
+.accordion-item
+{
+    padding-top: 2rem;
+    border: none;
+}
+.accordion-body
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.accordion-flush
+{
+    padding-top: 3rem;
+}
+.accordion-button 
+{
+font-size: 2rem;
+font-weight: 700;
+color: black !important;
+background-color: white !important;
+box-shadow: none !important;
+}
+.accordion-header:visited
+{
+    border: none !important;
+  
+} 
+
+.accordion-button:not(.collapsed)::after
+{
+   transform: rotate(-90deg);
+} 
+
+
+.testimonials
+{
+padding: 6rem 0;
+padding-right: 3.5rem;
+justify-content: center;
+}
+
+.testimonialsPara
+{
+font-size: 1.8rem;
+font-weight: 400;
+padding: 2rem 0;
+line-height: 1.2;
+text-align: justify;
+}
+
+.reviewcontent div
+{
+    padding: 2rem 0;
+    padding-left: 5rem;
+    
+}
+.reviewcontent p
+{
+    margin: 0;
+}
+.reviewcontent ul{
+    list-style: none;
+    color: gold;
+    font-size: 1.5rem;
+    display:flex;
+  
+}
+.reviewcontent ul li
+{
+    padding: 0;
+    margin: 0;
+}
+.reviewimg
+{
+    border-radius:50%;
+    width: 15%;
+    margin: 0px;
+  
+}
+.review1
+{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: cursive;
+    margin-bottom: 5rem;
+}
+.reviewcontent
+{
+background-color: #ffffff;
+border-radius: 5rem;
+padding: 2rem 2rem 2rem;
+margin-right: -8rem;
+margin-bottom: -10rem;
+margin-top: 2rem;
+
+}
+
+.backgroundcontent
+{
+
+background-color: #e9ecef;
+border-radius: 5rem;
+padding: 4rem 4.5rem;
+margin: 0 4rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+background-color: #121212;
+color: #fff;
+padding: 10rem 47rem;
+}
+.footlogo
+{
+    font-size: 5rem;
+    padding-left: 11rem;
+    padding-bottom: 2rem;
+}
+.socialmediaicons
+{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+}
+
+.number
+{
+  
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+}
+.footdescription
+{
+font-size: 1.5rem;
+
+}
+.footdescriptionhlt
+{
+    color:#0056b3;
+    font-weight: 700;
+}

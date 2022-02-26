@@ -1,0 +1,132 @@
+*
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+   
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.Slider-content
+{
+background-color: #0067f4;
+}
+
+.grid
+{
+    display: grid;
+    
+}
+.grid-2-col
+{
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3-col
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.headingPart
+{
+    padding: 11rem 0 0 5rem;
+    color: #fff;
+}
+.primaryHeading
+{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 6rem;
+    padding-bottom: 2rem;
+}
+.headingPart :nth-child(2)
+{
+font-size: 1.1rem;
+padding-bottom: 2rem;
+}
+.headingPart :nth-child(3), .headingPart :nth-child(4)
+{
+  
+    padding: 1rem 1.1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.headingPart :nth-child(3)
+{
+background-color: #fff;
+margin-right: 1rem;
+}
+
+.headingPart :nth-child(4)
+{
+    background-color: #0067f4;   
+    border: 1.5px solid #fff;
+    color: #fff;
+}
+.imagePart img
+{
+width:100%;
+}
+.services
+{
+    background-color: #f4f6f7;
+}
+.servicesTitle
+{
+padding-top: 5rem;
+}
+.servicesTitle :nth-child(1),.servicesTitle :nth-child(2)
+{
+    text-align: center;
+}
+.servicesTitle :nth-child(1)
+{
+    font-size: 2.5rem;
+}
+.servicesTitle :nth-child(2)
+{
+padding: 0 20rem;
+line-height: 1.5;
+color: #6c6c6c;
+
+}
+
+.sericesCardGrid
+{
+    padding: 4rem 0;
+    column-gap: 4rem;
+}
+.servicesCard
+{
+background-color: #ffffff;
+padding: 1rem 0 3rem 1rem;
+}
+
+.servicesCard  div
+{
+    display: flex;
+}
+.servicesCard :nth-child(1)
+{
+font-size: 2rem;
+margin: 0;
+}
+.brushIcon
+{
+
+color: #0067f4; ;
+}
+.servicesCard :nth-child(2)
+{
+padding: 1rem 0;
+}
